@@ -3,7 +3,9 @@
     <!-- Заголовок -->
     <header class="bg-blue-600 text-white py-6">
       <div class="container mx-auto px-4">
-        <h1 class="text-3xl font-bold">Кинотека</h1>
+        <h1 class="text-3xl font-bold">
+          Кинотека
+        </h1>
         <p class="mt-2">Лучшие фильмы всех времён</p>
       </div>
     </header>
@@ -12,24 +14,37 @@
     <main class="container mx-auto px-4 py-8">
       <!-- Блок "Кино у нас есть" -->
       <section class="mb-12">
-        <h2 class="text-2xl font-bold mb-6">Кино у нас есть</h2>
+        <h2 class="text-2xl font-bold mb-6">Наш арсенал:</h2>
 
         <!-- Фильтры -->
         <div class="flex flex-wrap gap-4 mb-6">
-          <select class="px-4 py-2 rounded-lg border border-gray-300 bg-white">
+          <select
+            v-model="selectedFilterGenre"
+            class="px-4 py-3 rounded-lg border border-gray-300 bg-white cursor-pointer"
+          >
             <option>Все жанры</option>
             <option>Боевик</option>
             <option>Комедия</option>
+            <option>Криминал</option>
+            <option>Драма</option>
+            <option>Фантастика</option>
           </select>
-          <select class="px-4 py-2 rounded-lg border border-gray-300 bg-white">
+          <select
+            v-model="selectedFilterYears"
+            class="px-4 py-3 rounded-lg border border-gray-300 bg-white cursor-pointer"
+          >
             <option>Все годы</option>
+            <option>Новинки 2025</option>
             <option>2020-2024</option>
             <option>2010-2019</option>
+            <option>2000-2009</option>
+            <option>1990-1999</option>
           </select>
           <input
+            v-model="filter"
             type="text"
             placeholder="Поиск..."
-            class="px-4 py-2 rounded-lg border border-gray-300 bg-white flex-grow max-w-md"
+            class="px-4 py-3 rounded-lg border border-gray-300 bg-white flex-grow max-w-md"
           />
         </div>
 
@@ -57,8 +72,10 @@
                 />
               </svg>
             </button>
-            <button class="px-4 py-2 bg-white border border-gray-300 rounded-lg">
-              {{page}}
+            <button
+              class="px-4 py-2 bg-white border border-gray-300 rounded-lg"
+            >
+              {{ page }}
             </button>
             <!-- <button
               class="px-4 py-2 bg-white border border-gray-300 rounded-lg"
@@ -104,7 +121,7 @@
           >
             <img
               :src="movie.poster"
-              alt="Movie 1"
+              :alt="movie.title"
               class="w-full h-96 object-cover"
             />
             <div class="p-5">
@@ -137,6 +154,9 @@ export default {
     return {
       movies: moviesData.movies,
       page: 1,
+      filter: "",
+      selectedFilterGenre: "Все жанры",
+      selectedFilterYears: "Все годы",
     };
   },
 
@@ -148,13 +168,59 @@ export default {
     endIndex() {
       return 8 * this.page;
     },
+   
+    filteredMovies() {
+    const searchTerm = this.filter.toUpperCase();
+    const selectedGenre = this.selectedFilterGenre.toUpperCase();
+    const selectedYears = this.selectedFilterYears;
+
+    return this.movies.filter((movie) => {
+      // Фильтрация по названию
+      if (!movie.title.toUpperCase().includes(searchTerm)) {
+        return false;
+      }
+
+      // Фильтрация по жанру
+      if (selectedGenre !== "ВСЕ ЖАНРЫ" && 
+          !movie.genre[0].toUpperCase().includes(selectedGenre)) {
+        return false;
+      }
+
+      const year = parseInt(movie.year, 10);
+
+      // Фильтрация по годам 
+      if (selectedYears === "2020-2024") {
+        if (year < 2020 || year > 2024) { 
+          return false;
+        }
+      } else if (selectedYears === "2010-2019") {
+        if (year < 2010 || year > 2019) {
+          return false;
+        }
+      } else if (selectedYears === "2000-2009") {
+        if (year < 2000 || year > 2009) {
+          return false;
+        }
+      } else if (selectedYears === "1990-1999") {
+        if (year < 1990 || year > 1999) {
+          return false;
+        }
+      } else if (selectedYears === "Новинки 2025") {
+        if (year != 2025) {
+          return false;
+        }
+      } 
+
+      return true;
+    });
+  },
 
     paginatedMovies() {
-      return this.movies.slice(this.startIndex, this.endIndex);
+      return this.filteredMovies.slice(this.startIndex, this.endIndex);
     },
 
     hasNextPage() {
-      return this.movies.length > this.endIndex;
+      return this.filteredMovies.length > this.endIndex;
     },
   },
 
@@ -162,7 +228,13 @@ export default {
 
   methods: {},
 
-  watch: {},
+  watch: {
+    filteredMovies() {
+      this.page = 1;
+    },
+
+    selectedFilter() {},
+  },
 };
 </script>
 

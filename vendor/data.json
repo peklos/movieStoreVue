@@ -159,6 +159,54 @@
       "year": 1994,
       "genre": ["криминал", "драма"],
       "description": "Переплетающиеся истории гангстеров и наемных убийц."
+    },
+    {
+      "title": "ТЕСТ 2020",
+      "rating": 8.9,
+      "poster": "https://m.media-amazon.com/images/M/MV5BNGNhMDIzZTUtNTBlZi00MTRlLWFjM2ItYzViMjE3YzI5MjljXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_FMjpg_UX1000_.jpg",
+      "year": 2020,
+      "genre": ["криминал", "драма"],
+      "description": "Переплетающиеся истории гангстеров и наемных убийц."
+    },
+    {
+      "title": "ТЕСТ 2025",
+      "rating": 8.9,
+      "poster": "https://m.media-amazon.com/images/M/MV5BNGNhMDIzZTUtNTBlZi00MTRlLWFjM2ItYzViMjE3YzI5MjljXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_FMjpg_UX1000_.jpg",
+      "year": 2025,
+      "genre": ["криминал", "драма"],
+      "description": "Переплетающиеся истории гангстеров и наемных убийц."
+    },
+    {
+      "title": "ТЕСТ 2024",
+      "rating": 8.9,
+      "poster": "https://m.media-amazon.com/images/M/MV5BNGNhMDIzZTUtNTBlZi00MTRlLWFjM2ItYzViMjE3YzI5MjljXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_FMjpg_UX1000_.jpg",
+      "year": 2024,
+      "genre": ["криминал", "драма"],
+      "description": "Переплетающиеся истории гангстеров и наемных убийц."
+    },
+    {
+      "title": "ТЕСТ 2000",
+      "rating": 8.9,
+      "poster": "https://m.media-amazon.com/images/M/MV5BNGNhMDIzZTUtNTBlZi00MTRlLWFjM2ItYzViMjE3YzI5MjljXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_FMjpg_UX1000_.jpg",
+      "year": 2000,
+      "genre": ["криминал", "драма"],
+      "description": "Переплетающиеся истории гангстеров и наемных убийц."
+    },
+    {
+      "title": "ТЕСТ 2010",
+      "rating": 8.9,
+      "poster": "https://m.media-amazon.com/images/M/MV5BNGNhMDIzZTUtNTBlZi00MTRlLWFjM2ItYzViMjE3YzI5MjljXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_FMjpg_UX1000_.jpg",
+      "year": 2010,
+      "genre": ["криминал", "драма"],
+      "description": "Переплетающиеся истории гангстеров и наемных убийц."
+    },
+    {
+      "title": "TEST 2025",
+      "rating": 7.3,
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTk0MTQ3NDQ4Ml5BMl5BanBnXkFtZTcwOTQ3OTQzMw@@._V1_FMjpg_UX1000_.jpg",
+      "year": 2025,
+      "genre": ["комедия", "мокьюментари"],
+      "description": "Псевдодокументальная комедия о казахском журналисте, который едет в США, чтобы снять фильм о «величайшей стране мира»."
     }
   ]
 }
