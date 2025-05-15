@@ -161,52 +161,164 @@
       "description": "Переплетающиеся истории гангстеров и наемных убийц."
     },
     {
-      "title": "ТЕСТ 2020",
-      "rating": 8.9,
-      "poster": "https://m.media-amazon.com/images/M/MV5BNGNhMDIzZTUtNTBlZi00MTRlLWFjM2ItYzViMjE3YzI5MjljXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_FMjpg_UX1000_.jpg",
-      "year": 2020,
-      "genre": ["криминал", "драма"],
-      "description": "Переплетающиеся истории гангстеров и наемных убийц."
-    },
-    {
-      "title": "ТЕСТ 2025",
-      "rating": 8.9,
-      "poster": "https://m.media-amazon.com/images/M/MV5BNGNhMDIzZTUtNTBlZi00MTRlLWFjM2ItYzViMjE3YzI5MjljXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_FMjpg_UX1000_.jpg",
-      "year": 2025,
-      "genre": ["криминал", "драма"],
-      "description": "Переплетающиеся истории гангстеров и наемных убийц."
-    },
-    {
-      "title": "ТЕСТ 2024",
-      "rating": 8.9,
-      "poster": "https://m.media-amazon.com/images/M/MV5BNGNhMDIzZTUtNTBlZi00MTRlLWFjM2ItYzViMjE3YzI5MjljXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_FMjpg_UX1000_.jpg",
-      "year": 2024,
-      "genre": ["криминал", "драма"],
-      "description": "Переплетающиеся истории гангстеров и наемных убийц."
-    },
-    {
-      "title": "ТЕСТ 2000",
-      "rating": 8.9,
-      "poster": "https://m.media-amazon.com/images/M/MV5BNGNhMDIzZTUtNTBlZi00MTRlLWFjM2ItYzViMjE3YzI5MjljXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_FMjpg_UX1000_.jpg",
+      "title": "Гладиатор",
+      "rating": 8.5,
+      "poster": "https://m.media-amazon.com/images/M/MV5BMDliMmNhNDEtODUyOS00MjNlLTgxODEtN2U3NzIxMGVkZTA1L2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_FMjpg_UX1000_.jpg",
       "year": 2000,
-      "genre": ["криминал", "драма"],
-      "description": "Переплетающиеся истории гангстеров и наемных убийц."
+      "genre": ["боевик", "драма", "история"],
+      "description": "Римский генерал Максимус становится гладиатором, чтобы отомстить за убийство семьи."
     },
     {
-      "title": "ТЕСТ 2010",
-      "rating": 8.9,
-      "poster": "https://m.media-amazon.com/images/M/MV5BNGNhMDIzZTUtNTBlZi00MTRlLWFjM2ItYzViMjE3YzI5MjljXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_FMjpg_UX1000_.jpg",
+      "title": "Унесённые призраками",
+      "rating": 8.6,
+      "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/6201401/ae3b699c-3db7-4196-a869-39b610bfe706/600x900",
+      "year": 2001,
+      "genre": ["аниме", "фэнтези", "приключения"],
+      "description": "Девочка Тихиро попадает в мир духов и пытается спасти своих родителей."
+    },
+    {
+      "title": "Поймай меня, если сможешь",
+      "rating": 8.1,
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTY5MzYzNjc5NV5BMl5BanBnXkFtZTYwNTUyNTc2._V1_FMjpg_UX1000_.jpg",
+      "year": 2002,
+      "genre": ["криминал", "драма", "биография"],
+      "description": "История гениального мошенника Фрэнка Абигнейла и агента ФБР, который его преследует."
+    },
+    {
+      "title": "Властелин колец: Две крепости",
+      "rating": 8.8,
+      "poster": "https://m.media-amazon.com/images/M/MV5BZGMxZTdjZmYtMmE2Ni00ZTdkLWI5NTgtNjlmMjBiNzU2MmI5XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_FMjpg_UX1000_.jpg",
+      "year": 2002,
+      "genre": ["фэнтези", "приключения"],
+      "description": "Фродо и Сэм продолжают путь к Роковой Горе, а Арагорн защищает крепость Хельмова Падь."
+    },
+    {
+      "title": "Властелин колец: Возвращение короля",
+      "rating": 9.0,
+      "poster": "https://m.media-amazon.com/images/M/MV5BNzA5ZDNlZWMtM2NhNS00NDJjLTk4NDItYTRmY2EwMWZlMTY3XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_FMjpg_UX1000_.jpg",
+      "year": 2003,
+      "genre": ["фэнтези", "приключения"],
+      "description": "Финальная битва за Средиземье и уничтожение Кольца Всевластия."
+    },
+    {
+      "title": "Король говорит!",
+      "rating": 8.0,
+      "poster": "https://m.media-amazon.com/images/M/MV5BMzU5MjEwMTg2Nl5BMl5BanBnXkFtZTcwNzM3MTYxNA@@._V1_FMjpg_UX1000_.jpg",
       "year": 2010,
-      "genre": ["криминал", "драма"],
-      "description": "Переплетающиеся истории гангстеров и наемных убийц."
+      "genre": ["драма", "биография", "история"],
+      "description": "История короля Георга VI, который преодолевает заикание с помощью логопеда."
     },
     {
-      "title": "TEST 2025",
-      "rating": 7.3,
-      "poster": "https://m.media-amazon.com/images/M/MV5BMTk0MTQ3NDQ4Ml5BMl5BanBnXkFtZTcwOTQ3OTQzMw@@._V1_FMjpg_UX1000_.jpg",
+      "title": "Остров проклятых",
+      "rating": 8.2,
+      "poster": "https://m.media-amazon.com/images/M/MV5BYzhiNDkyNzktNTZmYS00ZTBkLTk2MDAtM2U0YjU1MzgxZjgzXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_FMjpg_UX1000_.jpg",
+      "year": 2010,
+      "genre": ["триллер", "детектив", "драма"],
+      "description": "Сыщик расследует исчезновение пациентки психиатрической клиники на отдалённом острове."
+    },
+    {
+      "title": "Одержимость",
+      "rating": 8.5,
+      "poster": "https://m.media-amazon.com/images/M/MV5BOTA5NDZlZGUtMjAxOS00YTRkLTkwYmMtYWQ0NWEwZDZiNjEzXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_FMjpg_UX1000_.jpg",
+      "year": 2014,
+      "genre": ["драма", "музыка"],
+      "description": "Молодой барабанщик сталкивается с жестоким преподавателем, стремящимся к совершенству."
+    },
+    {
+      "title": "Безумный Макс: Дорога ярости",
+      "rating": 8.1,
+      "poster": "https://m.media-amazon.com/images/M/MV5BN2EwM2I5OWMtMGQyMi00Zjg1LWJkNTctZTdjYTA4OGUwZjMyXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_FMjpg_UX1000_.jpg",
+      "year": 2015,
+      "genre": ["боевик", "постапокалипсис"],
+      "description": "Макс и Фуриоса спасаются от тирана Иммортена Джо в пустыне будущего."
+    },
+    {
+      "title": "Дюнкерк",
+      "rating": 7.8,
+      "poster": "https://m.media-amazon.com/images/M/MV5BN2YyZjQ0NTEtNzU5MS00NGZkLTg0MTEtYzJmMWY3MWRhZjM2XkEyXkFqcGdeQXVyMDA4NzMyOA@@._V1_FMjpg_UX1000_.jpg",
+      "year": 2017,
+      "genre": ["военный", "драма", "история"],
+      "description": "Эвакуация британских войск из Дюнкерка во время Второй мировой войны."
+    },
+    {
+      "title": "Довод",
+      "rating": 7.5,
+      "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/4303601/b35131e0-041b-4ebc-af90-7104f2f75821/600x900",
+      "year": 2020,
+      "genre": ["фантастика", "боевик", "триллер"],
+      "description": "Агент ЦРУ использует технологию инверсии времени, чтобы предотвратить глобальную катастрофу."
+    },
+    {
+      "title": "Не смотрите наверх",
+      "rating": 7.2,
+      "poster": "https://m.media-amazon.com/images/M/MV5BZjcwZjY3NjAtNzkxZS00NmFjLTg1OGYtODJmMThhY2UwMTc5XkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_FMjpg_UX1000_.jpg",
+      "year": 2021,
+      "genre": ["комедия", "драма", "фантастика"],
+      "description": "Два астронома пытаются предупредить человечество о приближающейся комете."
+    },
+    {
+      "title": "Топ Ган: Мэверик",
+      "rating": 8.3,
+      "poster": "https://m.media-amazon.com/images/M/MV5BZWYzOGEwNTgtNWU3NS00ZTQ0LWJkODUtMmVhMjIwMjA1ZmQwXkEyXkFqcGdeQXVyMjkwOTAyMDU@._V1_FMjpg_UX1000_.jpg",
+      "year": 2022,
+      "genre": ["боевик", "драма"],
+      "description": "Пит «Мэверик» Митчелл возвращается, чтобы подготовить новое поколение лётчиков."
+    },
+    {
+      "title": "Оппенгеймер",
+      "rating": 8.6,
+      "poster": "https://m.media-amazon.com/images/M/MV5BMDBmYTZjNjUtN2M1MS00MTQ2LTk2ODgtNzc2M2QyZGE5NTVjXkEyXkFqcGdeQXVyNzAwMjU2MTY@._V1_FMjpg_UX1000_.jpg",
+      "year": 2023,
+      "genre": ["биография", "драма", "история"],
+      "description": "История создания атомной бомбы и моральных дилемм Роберта Оппенгеймера."
+    },
+    {
+      "title": "Дюна: Часть вторая",
+      "rating": 8.7,
+      "poster": "https://m.media-amazon.com/images/M/MV5BN2QyZGU4ZDctOWMzMy00NTc5LThlOGQtODhmNDI1NmY5YzAwXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_FMjpg_UX1000_.jpg",
+      "year": 2024,
+      "genre": ["фантастика", "приключения", "драма"],
+      "description": "Продолжение эпической саги о Полу Атрейдесе и его борьбе за Арракис."
+    },
+    {
+      "title": "Миссия невыполнима 8",
+      "rating": 5.7,
+      "poster": "https://upload.wikimedia.org/wikipedia/ru/thumb/1/19/Mission-_Impossible_%E2%80%93_The_Final_Reckoning.jpg/330px-Mission-_Impossible_%E2%80%93_The_Final_Reckoning.jpg",
       "year": 2025,
-      "genre": ["комедия", "мокьюментари"],
-      "description": "Псевдодокументальная комедия о казахском журналисте, который едет в США, чтобы снять фильм о «величайшей стране мира»."
+      "genre": ["боевик", "триллер"],
+      "description": "Новая миссия Итана Ханта и команды IMF."
+    },
+    {
+      "title": "Форсаж 10",
+      "rating": 6.0,
+      "poster": "https://cdn1.ozone.ru/s3/multimedia-q/6883180046.jpg",
+      "year": 2023,
+      "genre": ["боевик", "криминал"],
+      "description": "Доминик Торетто и его семья снова в опасности."
+    },
+    {
+      "title": "Аватар 2: Путь воды",
+      "rating": 7.6,
+      "poster": "https://m.media-amazon.com/images/M/MV5BYjhiNjBlODctY2ZiOC00YjVlLWFlNzAtNTVhNzM1YjI1NzMxXkEyXkFqcGdeQXVyMjQxNTE1MDA@._V1_FMjpg_UX1000_.jpg",
+      "year": 2022,
+      "genre": ["фантастика", "приключения"],
+      "description": "Джейк Салли и Нейтири защищают семью и океаны Пандоры."
+    },
+    {
+      "title": "Человек-паук: Нет пути домой",
+      "rating": 8.2,
+      "poster": "https://m.media-amazon.com/images/M/MV5BZWMyYzFjYTYtNTRjYi00OGExLWE2YzgtOGRmYjAxZTU3NzBiXkEyXkFqcGdeQXVyMzQ0MzA0NTM@._V1_FMjpg_UX1000_.jpg",
+      "year": 2021,
+      "genre": ["фантастика", "боевик", "приключения"],
+      "description": "Питер Паркер сталкивается с мультивселенными и прошлыми врагами."
+    },
+    {
+      "title": "Джон Уик 4",
+      "rating": 7.7,
+      "poster": "https://m.media-amazon.com/images/M/MV5BMDExZGMyOTMtMDgyYi00NGIwLWJhMTEtOTdkZGFjNmZiMTEwXkEyXkFqcGdeQXVyMjM4NTM5NDY@._V1_FMjpg_UX1000_.jpg",
+      "year": 2023,
+      "genre": ["боевик", "триллер", "криминал"],
+      "description": "Джон Уик продолжает борьбу с Высоким столом."
     }
   ]
 }
